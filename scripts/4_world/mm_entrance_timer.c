@@ -1,4 +1,4 @@
-class mm_entrance_timer : Land_Underground_EntranceBase
+class mm_entrance_timer : Land_Underground_Entrance
 {
      const float TRIGGER_DELAY = 900000; // 15 minutes delay in milliseconds
      bool m_PunchedCardUsed;

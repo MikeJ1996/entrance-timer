@@ -38,7 +38,7 @@ class mm_entrance_panel : Land_Underground_Panel
         }
     }
 
-    private void ExecutePanelInteraction()
+    void ExecutePanelInteraction()
     {
         Land_Underground_EntranceBase door = GetLinkedDoor();
         if (door)
